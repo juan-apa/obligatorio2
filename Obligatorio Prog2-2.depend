@@ -1,0 +1,160 @@
+# depslib dependency file v1.0
+1448577550 source:c:\users\apari\desktop\obligatorio prog2-2\cliente.cpp
+	"Cliente.h"
+
+1448541704 c:\users\apari\desktop\obligatorio prog2-2\cliente.h
+	<stdio.h>
+	"String.h"
+
+1448500998 c:\users\apari\desktop\obligatorio prog2-2\string.h
+	<stdio.h>
+
+1448681882 source:c:\users\apari\desktop\obligatorio prog2-2\main.cpp
+	<stdio.h>
+	"Reclamo.h"
+	"Cliente.h"
+	"ListaReclamos.h"
+	"ArbolClientes.h"
+	"Menu.h"
+
+1448576100 source:c:\users\apari\desktop\obligatorio prog2-2\string.cpp
+	"String.h"
+
+1448680328 c:\users\apari\desktop\obligatorio prog2-2\fecha.h
+	<stdio.h>
+
+1448680855 source:c:\users\apari\desktop\obligatorio prog2-2\fecha.cpp
+	"fecha.h"
+
+1448595077 source:c:\users\apari\desktop\obligatorio prog2-2\reclamo.cpp
+	"Reclamo.h"
+
+1448567882 c:\users\apari\desktop\obligatorio prog2-2\reclamo.h
+	<stdio.h>
+	"String.h"
+	"Fecha.h"
+
+1448681736 source:c:\users\apari\desktop\obligatorio prog2-2\listareclamos.cpp
+	"ListaReclamos.h"
+
+1448681684 c:\users\apari\desktop\obligatorio prog2-2\listareclamos.h
+	"Reclamo.h"
+
+1448679057 source:c:\users\apari\desktop\obligatorio prog2-2\arbolclientes.cpp
+	"ArbolClientes.h"
+
+1448589889 c:\users\apari\desktop\obligatorio prog2-2\arbolclientes.h
+	"Cliente.h"
+
+1448573703 source:c:\users\juan\desktop\obligatorio prog2-2\arbolclientes.cpp
+	"ArbolClientes.h"
+
+1448573587 c:\users\juan\desktop\obligatorio prog2-2\arbolclientes.h
+	"Cliente.h"
+
+1448541704 c:\users\juan\desktop\obligatorio prog2-2\cliente.h
+	<stdio.h>
+	"String.h"
+
+1448500998 c:\users\juan\desktop\obligatorio prog2-2\string.h
+	<stdio.h>
+
+1448573587 source:c:\users\juan\desktop\obligatorio prog2-2\cliente.cpp
+	"Cliente.h"
+
+1448574126 source:c:\users\juan\desktop\obligatorio prog2-2\main.cpp
+	<stdio.h>
+	"Reclamo.h"
+	"Cliente.h"
+	"ListaReclamos.h"
+	"ArbolClientes.h"
+	"Menu.h"
+
+1448567882 c:\users\juan\desktop\obligatorio prog2-2\reclamo.h
+	<stdio.h>
+	"String.h"
+	"Fecha.h"
+
+1448569310 c:\users\juan\desktop\obligatorio prog2-2\fecha.h
+	<stdio.h>
+
+1448575616 c:\users\juan\desktop\obligatorio prog2-2\listareclamos.h
+	"Reclamo.h"
+
+1448501278 source:c:\users\juan\desktop\obligatorio prog2-2\string.cpp
+	"String.h"
+
+1448573587 source:c:\users\juan\desktop\obligatorio prog2-2\listareclamos.cpp
+	"ListaReclamos.h"
+
+1448573587 source:c:\users\juan\desktop\obligatorio prog2-2\reclamo.cpp
+	"Reclamo.h"
+
+1448569316 source:c:\users\juan\desktop\obligatorio prog2-2\fecha.cpp
+	"fecha.h"
+
+1448574103 c:\users\juan\desktop\obligatorio prog2-2\menu.h
+	<stdio.h>
+
+1448575180 source:c:\users\juan\desktop\obligatorio prog2-2\menu.cpp
+	"Menu.h"
+
+1448593134 source:c:\users\apari\desktop\obligatorio prog2-2\menu.cpp
+	"Menu.h"
+
+1448589340 c:\users\apari\desktop\obligatorio prog2-2\menu.h
+	<stdio.h>
+
+1448679057 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\arbolclientes.cpp
+	"ArbolClientes.h"
+
+1448589889 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\arbolclientes.h
+	"Cliente.h"
+
+1448541704 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\cliente.h
+	<stdio.h>
+	"String.h"
+
+1448500998 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\string.h
+	<stdio.h>
+
+1448577550 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\cliente.cpp
+	"Cliente.h"
+
+1448680855 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\fecha.cpp
+	"fecha.h"
+
+1448680328 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\fecha.h
+	<stdio.h>
+
+1448681736 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\listareclamos.cpp
+	"ListaReclamos.h"
+
+1448681684 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\listareclamos.h
+	"Reclamo.h"
+
+1448567882 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\reclamo.h
+	<stdio.h>
+	"String.h"
+	"Fecha.h"
+
+1448682696 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\main.cpp
+	<stdio.h>
+	"Reclamo.h"
+	"Cliente.h"
+	"ListaReclamos.h"
+	"ArbolClientes.h"
+	"Menu.h"
+
+1448589340 c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\menu.h
+	<stdio.h>
+
+1448593134 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\menu.cpp
+	"Menu.h"
+
+1448595077 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\reclamo.cpp
+	"Reclamo.h"
+
+1448576100 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\string.cpp
+	"String.h"
+
