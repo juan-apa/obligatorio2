@@ -170,3 +170,15 @@ int LReclamos_cantRPIF(LReclamos lr, Fecha f1, Fecha f2)
     }
 }
 
+bool LReclamos_existeCed(LReclamos lr, long int ced)
+{
+    bool esta= false;
+    if(lr!=NULL)
+    {
+        if(Reclamo_getCedula(lr->r)==ced)
+            esta= true;
+        else
+            esta= LReclamos_existeNum(lr->sig, ced);
+    }
+    return esta;
+}

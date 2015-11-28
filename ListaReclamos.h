@@ -37,4 +37,6 @@ int LReclamo_getCant(LReclamos lr);
 
 int LReclamos_cantRPIF(LReclamos lr, Fecha f1, Fecha f2);
 
+bool LReclamos_existeCed(LReclamos lr, long int ced);
+
 #endif // LISTARECLAMOS_H_INCLUDED

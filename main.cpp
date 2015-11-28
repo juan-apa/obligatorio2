@@ -8,7 +8,7 @@
 int main()
 {
     bool fin= false;
-    bool salir1= false, salir2= false;
+    bool salir1= false, salir2= false, salir3= false;
     String saux;
     String_crear(saux);
     Clientes ac;
@@ -19,6 +19,7 @@ int main()
     AClientes_inicializar(ac);
     LReclamos_inicializar(lr);
     int i=0, op, opr, numaux, opl;
+    long int cedAux;
 
     while(!fin)
     {
@@ -162,11 +163,55 @@ int main()
         break;
 
     case 3:
-        LReclamos_mostrar(lr);
+        salir3= false;
+        while(!salir3)
+        {
+            Menu_listados(opl);
+            switch(opl)
+            {
+            case 1:
+                if(ac==NULL)
+                    printf("\nNo hay clientes ingresados en el sitema.\n");
+                else
+                {
+                    printf("\nA continuacion se listaran los clientes ingresados en el sistema por orden de cedula.\n\n");
+                    AClientes_mostrarOrden(ac);
+                }
+                break; //Fin case 3: case 1: (Listar clientes por orden de cedula)
+
+            case 2:
+                if(lr==NULL)
+                    printf("\nNo hay ningun reclamo ingresado en el sistema.\n");
+                else{
+                    printf("Ingrese una cedula: ");
+                    scanf("%ld", &cedAux);
+                    if(LReclamos_existeCed(lr, cedAux))
+                    {
+
+                    }
+                    else
+                        printf("\nNo hay ningun cliente/reclamo ingresado en el sistema con la cedula ingresada.\n");
+                }
+                break; //Fin case 3: case 2: (Reclamos realizados por un cliente)
+
+            case 3:
+                break; //Fin case 3: case 3: (Reclamos realizados en una fecha especifica)
+
+            case 4:
+                break; //Fin case 3: case 4: (Listar cliente que hizo un reclamo)
+
+            case 5:
+                salir3= true;
+                break; //Fin case 3: case 5: (Atras)
+            }
+
+        }
+
         break;
+
     case 4:
         fin= true;
-        break;
+        break; //Fin case 4: (Salir del programa)
         }
     }
     /*
