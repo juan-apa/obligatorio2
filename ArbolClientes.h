@@ -26,8 +26,8 @@ Cliente AClientes_getCliente(Clientes &ac, long int ced);
 
 void AClientes_sumarReclamo(Clientes &ac, long int ced);
 
-void alfa(int valor, int punt);
-
 void AClientes_BuscarMaxReclamo(Clientes ac, int &punt);
+
+Cliente AClientes_DevolverClienteMaxReclamo(Clientes ac, int  maxReclamos);
 
 #endif // ARBOLCLIENTES_H_INCLUDED

@@ -75,27 +75,18 @@ Cliente AClientes_getCliente(Clientes &ac, long int ced) //@todo creo que anda, 
 void AClientes_sumarReclamo(Clientes &ac, long int ced) //@todo creo que anda, pero revisar igual
                                                   //@fixme pasarle la cedula directamente en vez de Cliente cl, como parametro.
 {
-    Cliente caux;
     if(ac!=NULL)
     {
         if(Cliente_getCedula(ac->c)== ced){
-            caux=ac->c;
-            caux.cantReclamos++;
+            Cliente_setCantReclamos(ac->c);
         }
         else
         {
             if(Cliente_getCedula(ac->c)> ced)
-                caux= AClientes_getCliente(ac->izq, ced);
+                AClientes_sumarReclamo(ac->izq, ced);             //modifique por AClientes_getCliente
             else
-                caux= AClientes_getCliente(ac->der, ced);
+                AClientes_sumarReclamo(ac->der, ced);
         }
-    }
-}
-
-void alfa(int valor, int punt){
-
-    if(valor>punt){
-        punt=valor;
     }
 }
 
@@ -104,7 +95,6 @@ void AClientes_BuscarMaxReclamo(Clientes ac, int  &punt)
     if(ac!=NULL)
     {
         AClientes_BuscarMaxReclamo(ac->izq,punt);
-        //alfa(Cliente_getCantReclamos(ac->c),punt);
         if(Cliente_getCantReclamos(ac->c)>punt){
             punt=Cliente_getCantReclamos(ac->c);
         }
@@ -112,6 +102,17 @@ void AClientes_BuscarMaxReclamo(Clientes ac, int  &punt)
     }
 }
 
+Cliente AClientes_DevolverClienteMaxReclamo(Clientes ac, int  maxReclamos)
+{
+    if(ac!=NULL)
+    {
+        AClientes_DevolverClienteMaxReclamo(ac->izq,maxReclamos);
+        if(Cliente_getCantReclamos(ac->c)==maxReclamos){
+            return ac->c;
+        }
+        AClientes_DevolverClienteMaxReclamo(ac->der,maxReclamos);
+    }
+}
 
 
 
