@@ -156,10 +156,9 @@ int main()
                 break; //Fin case 2: case 1: (Reclamos realizados en un intervalo)
 
             case 4:
-
-
                 AClientes_BuscarMaxReclamo(ac,cantMaxReclamos);
-                printf("%d", cantMaxReclamos);
+                printf("CANTIDAD MAXIMA DE :%d", cantMaxReclamos);
+                Cliente_mostrar(AClientes_DevolverClienteMaxReclamo(ac,cantMaxReclamos));
                 break; //Fin case 2: case1: (Cliente con mas reclamos)
 
             case 5:

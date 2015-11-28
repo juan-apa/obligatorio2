@@ -38,6 +38,7 @@ void Cliente_setTelefono(Cliente &c, long int n); //Le pone el numero de telefon
 
 void Cliente_setCedula(Cliente &c, long int n); //Le pone la cedula n al cliente c
 
+void Cliente_setCantReclamos (Cliente &c);
 
 void Cliente_cargar(Cliente &c); //carga el cliente c por pantalla
 

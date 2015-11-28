@@ -65,6 +65,10 @@ void Cliente_setCedula(Cliente &c, long int n)
     c.cedula= n;
 }
 
+void Cliente_setCantReclamos (Cliente &c){
+    c.cantReclamos++;
+}
+
 void Cliente_cargar(Cliente &c)
 {
     String nom;
@@ -75,7 +79,7 @@ void Cliente_cargar(Cliente &c)
     String_crear(nom);
     String_crear(ape);
     String_crear(calle);
-
+    c.cantReclamos=0;
     printf("Nombre: ");
     fflush(stdin);
     String_cargar(nom);
