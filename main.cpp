@@ -19,7 +19,10 @@ int main()
     AClientes_inicializar(ac);
     LReclamos_inicializar(lr);
     int i=0, op, opr, numaux, opl;
+
     long int cedAux;
+    //int * punteroInt=new int;
+    int cantMaxReclamos=0;
 
     while(!fin)
     {
@@ -67,6 +70,8 @@ int main()
                     {
                         if(Fecha_menorIgual(ultimaf ,Reclamo_getFReal(r)))
                         {
+                            AClientes_sumarReclamo(ac, Reclamo_getCedula(r));
+
                             Reclamo_setNumero(r, LReclamos_getUltNum(lr)+1);
                             LReclamos_agregar(lr, r);
                         }
@@ -107,7 +112,7 @@ int main()
             Menu_consultas(opl);
             switch(opl)
             {
-            case 1:
+            case 1://has
                 if(lr==NULL)
                     printf("\nNo hay reclamos registtrados en el sistema.\n");
                 else{
@@ -153,6 +158,10 @@ int main()
                 break; //Fin case 2: case 1: (Reclamos realizados en un intervalo)
 
             case 4:
+
+
+                AClientes_BuscarMaxReclamo(ac,cantMaxReclamos);
+                printf("%d", cantMaxReclamos);
                 break; //Fin case 2: case1: (Cliente con mas reclamos)
 
             case 5:

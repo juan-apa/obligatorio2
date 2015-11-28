@@ -30,6 +30,11 @@ long int Cliente_getCedula(Cliente c)
     return c.cedula;
 }
 
+int Cliente_getCantReclamos (Cliente c)
+{
+    return c.cantReclamos;
+}
+
 void Cliente_SetNombre(Cliente &c, String s)
 {
     c.nombre= s;
