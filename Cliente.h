@@ -10,6 +10,7 @@ typedef struct {
     int numPuerta;
     long int telefono;
     long int cedula;
+    int cantReclamos;
 }Cliente;
 
 //SELECTORAS
@@ -42,5 +43,6 @@ void Cliente_cargar(Cliente &c); //carga el cliente c por pantalla
 
 void Cliente_mostrar(Cliente c); //Muestra el cliente c por pantalla
 
+int Cliente_getCantReclamos (Cliente c);
 
 #endif // CLIENTE_H_INCLUDED

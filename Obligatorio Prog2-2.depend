@@ -158,3 +158,56 @@
 1448576100 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\string.cpp
 	"String.h"
 
+1448739129 source:c:\users\aefr0_000\documents\github\obligatorio2\cliente.cpp
+	"Cliente.h"
+
+1448739148 c:\users\aefr0_000\documents\github\obligatorio2\cliente.h
+	<stdio.h>
+	"String.h"
+
+1448736969 c:\users\aefr0_000\documents\github\obligatorio2\string.h
+	<stdio.h>
+
+1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\fecha.cpp
+	"fecha.h"
+
+1448736969 c:\users\aefr0_000\documents\github\obligatorio2\fecha.h
+	<stdio.h>
+
+1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\listareclamos.cpp
+	"ListaReclamos.h"
+
+1448736969 c:\users\aefr0_000\documents\github\obligatorio2\listareclamos.h
+	"Reclamo.h"
+
+1448736969 c:\users\aefr0_000\documents\github\obligatorio2\reclamo.h
+	<stdio.h>
+	"String.h"
+	"Fecha.h"
+
+1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\menu.cpp
+	"Menu.h"
+
+1448736969 c:\users\aefr0_000\documents\github\obligatorio2\menu.h
+	<stdio.h>
+
+1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\reclamo.cpp
+	"Reclamo.h"
+
+1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\string.cpp
+	"String.h"
+
+1448741537 source:c:\users\aefr0_000\documents\github\obligatorio2\arbolclientes.cpp
+	"ArbolClientes.h"
+
+1448741527 c:\users\aefr0_000\documents\github\obligatorio2\arbolclientes.h
+	"Cliente.h"
+
+1448741272 source:c:\users\aefr0_000\documents\github\obligatorio2\main.cpp
+	<stdio.h>
+	"Reclamo.h"
+	"Cliente.h"
+	"ListaReclamos.h"
+	"ArbolClientes.h"
+	"Menu.h"
+

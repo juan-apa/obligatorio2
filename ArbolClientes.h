@@ -22,4 +22,12 @@ int AClientes_ClientEnCalle(Clientes &ac, String call); //Devuelve la cantidad d
 
 void AClientes_mostrarPCedula(Clientes &ac, long int ced);
 
+Cliente AClientes_getCliente(Clientes &ac, long int ced);
+
+void AClientes_sumarReclamo(Clientes &ac, long int ced);
+
+void alfa(int valor, int punt);
+
+void AClientes_BuscarMaxReclamo(Clientes ac, int &punt);
+
 #endif // ARBOLCLIENTES_H_INCLUDED
