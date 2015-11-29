@@ -243,7 +243,7 @@ int main()
 
         }
 
-        break;
+        break; //Break case 3: (Menu listados)
 
     case 4:
         fin= true;

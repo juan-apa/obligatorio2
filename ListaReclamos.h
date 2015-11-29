@@ -45,4 +45,7 @@ bool LReclamos_existeFecha(LReclamos lr, Fecha f1);
 
 long int LReclamos_getCedPNum(LReclamos lr, int num);
 
+Reclamo LReclamos_getReclamoPNum(LReclamos lr, int num);
+
+
 #endif // LISTARECLAMOS_H_INCLUDED

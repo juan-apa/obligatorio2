@@ -218,3 +218,15 @@ long int LReclamos_getCedPNum(LReclamos lr, int num)
     }
     return cedaux;
 }
+
+Reclamo LReclamos_getReclamoPNum(LReclamos lr, int num)
+{
+    Reclamo aux;
+    if(lr!=NULL){
+        if(Reclamo_getNumero(lr->r)== num)
+            aux= lr->r;
+        else
+            aux= LReclamos_getReclamoPNum(lr->sig, num);
+    }
+    return aux;
+}
