@@ -108,3 +108,11 @@ bool Fecha_menorIgual(Fecha f1, Fecha f2)
 
     }
 }
+
+bool Fecha_igual(Fecha f1, Fecha f2)
+{
+    if(Fecha_getAnio(f1)== Fecha_getAnio(f2) && Fecha_getMes(f1)==Fecha_getMes(f2) && Fecha_getDia(f1)== Fecha_getDia(f2))
+        return true;
+    else
+        return false;
+}

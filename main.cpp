@@ -187,7 +187,7 @@ int main()
                 }
                 break; //Fin case 3: case 1: (Listar clientes por orden de cedula)
 
-            case 2:
+            case 2: //@fixme
                 if(lr==NULL)
                     printf("\nNo hay ningun reclamo ingresado en el sistema.\n");
                 else{
@@ -195,7 +195,8 @@ int main()
                     scanf("%ld", &cedAux);
                     if(LReclamos_existeCed(lr, cedAux))
                     {
-
+                       LReclamos_mostrarPCedula(lr, cedAux);
+                       printf("\n");
                     }
                     else
                         printf("\nNo hay ningun cliente/reclamo ingresado en el sistema con la cedula ingresada.\n");
@@ -203,9 +204,36 @@ int main()
                 break; //Fin case 3: case 2: (Reclamos realizados por un cliente)
 
             case 3:
+                if(lr==NULL)
+                    printf("\nNo hay ningun reclamo ingresado en el sistema.\n");
+                else
+                {
+                    printf("\nIngrese una fecha: ");
+                    Fecha_cargar(f1);
+                    if(Fecha_validacion(f1))
+                    {
+                        if(LReclamos_existeFecha(lr, f1)){
+                            LReclamos_mostrarPFecha(lr, f1);
+                        }
+                        else
+                            printf("No hay ningun reclamo con la fecha ingresada en el sistema.\n");
+                    }
+                    else
+                        printf("La fecha ingresada es invalida.\n");
+                }
                 break; //Fin case 3: case 3: (Reclamos realizados en una fecha especifica)
 
             case 4:
+                if(lr==NULL)
+                    printf("\nNo hay ningun reclamo ingresado en el sistema.\n");
+                else{
+                    printf("\nIngrese un numero de reclamo.");
+                    scanf("%d", &numaux);
+                    if(LReclamos_existeNum(lr, numaux)){
+                        Cliente_mostrar(AClientes_getCliente(ac, LReclamos_getCedPNum(lr, numaux)));
+                        //@todo Hay que agregar el que me muestre si esta solucionado o no.
+                    }
+                }
                 break; //Fin case 3: case 4: (Listar cliente que hizo un reclamo)
 
             case 5:
@@ -222,51 +250,6 @@ int main()
         break; //Fin case 4: (Salir del programa)
         }
     }
-    /*
-    while(i<6)
-    {
-        printf("\n\nA continuacion se cargara un cliente por pantalla\n");
-        Cliente_cargar(c);
-        AClientes_insertar(ac, c);
-        i++;
-    }
-    AClientes_mostrarOrden(ac);
-    printf("\nLa cantidad de clientes en la misma calle es: %d", AClientes_ClientEnCalle(ac, "21")); //@note Anda bien, A pesar de que pense que no iba a andar bien. yaaasss
-    */
-    /*
-    f1.anio= 2014;  //@note La comprobacion de si la fecha es menor o no anda bien.
-    f1.mes= 12;
-    f1.dia= 12;
-
-    f2.anio= 2014;
-    f2.mes= 12;
-    f2.dia= 12;
-
-    if(Fecha_menorIgual(f1, f2))
-        printf("\nf1<f2\n");
-    else
-        printf("\nf1>f2\n");
-        */
-    /*
-    while(i<3)
-    {
-        printf("\n\nCargar reclamo\n"); //@note, el poner el numero asi, anda bien y se puede hacer.
-        Reclamo_cargar(r);
-        Reclamo_setNumero(r, LReclamos_getUltNum(lr)+1);
-        LReclamos_agregar(lr, r);
-        i++;
-    }
-    */
-
-
-    /*
-    printf("\nA continuacion se mostrara la lista de reclamosn\n\n");
-    LReclamos_mostrar(lr);
-    printf("\nA continuacion se mostrara la lista de reclamosn\n\n");
-    LReclamos_mostrar(lr);
-    printf("\nA continuacion se mostrara la lista de reclamosn\n\n");
-    LReclamos_mostrar(lr);
-    */
-
+    //@todo Aca agregar la funcion que me baje los datos a un archivo.
     return 0;
 }

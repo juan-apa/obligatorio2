@@ -211,3 +211,56 @@
 	"ArbolClientes.h"
 	"Menu.h"
 
+1448762477 source:c:\users\apari\documents\github\obligatorio2\arbolclientes.cpp
+	"ArbolClientes.h"
+
+1448762746 c:\users\apari\documents\github\obligatorio2\arbolclientes.h
+	"Cliente.h"
+
+1448762810 c:\users\apari\documents\github\obligatorio2\cliente.h
+	<stdio.h>
+	"String.h"
+
+1448762409 c:\users\apari\documents\github\obligatorio2\string.h
+	<stdio.h>
+
+1448762810 source:c:\users\apari\documents\github\obligatorio2\cliente.cpp
+	"Cliente.h"
+
+1448772115 source:c:\users\apari\documents\github\obligatorio2\fecha.cpp
+	"fecha.h"
+
+1448772115 c:\users\apari\documents\github\obligatorio2\fecha.h
+	<stdio.h>
+
+1448772409 source:c:\users\apari\documents\github\obligatorio2\listareclamos.cpp
+	"ListaReclamos.h"
+
+1448772409 c:\users\apari\documents\github\obligatorio2\listareclamos.h
+	"Reclamo.h"
+
+1448762409 c:\users\apari\documents\github\obligatorio2\reclamo.h
+	<stdio.h>
+	"String.h"
+	"Fecha.h"
+
+1448762478 source:c:\users\apari\documents\github\obligatorio2\menu.cpp
+	"Menu.h"
+
+1448762409 c:\users\apari\documents\github\obligatorio2\menu.h
+	<stdio.h>
+
+1448762409 source:c:\users\apari\documents\github\obligatorio2\reclamo.cpp
+	"Reclamo.h"
+
+1448762409 source:c:\users\apari\documents\github\obligatorio2\string.cpp
+	"String.h"
+
+1448762758 source:c:\users\apari\documents\github\obligatorio2\main.cpp
+	<stdio.h>
+	"Reclamo.h"
+	"Cliente.h"
+	"ListaReclamos.h"
+	"ArbolClientes.h"
+	"Menu.h"
+

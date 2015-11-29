@@ -182,3 +182,39 @@ bool LReclamos_existeCed(LReclamos lr, long int ced)
     }
     return esta;
 }
+
+void LReclamos_mostrarPFecha(LReclamos lr, Fecha f)
+{
+    if(lr!=NULL)
+    {
+        if(Fecha_igual(f, Reclamo_getFReal(lr->r)))
+            Reclamo_mostrar(lr->r);
+        LReclamos_mostrarPFecha(lr->sig, f);
+    }
+}
+
+bool LReclamos_existeFecha(LReclamos lr, Fecha f1)
+{
+    bool esta= false;
+    if(lr!=NULL)
+    {
+        if(Fecha_igual(f1, Reclamo_getFReal(lr->r)))
+            esta= true;
+        else
+            esta= LReclamos_existeFecha(lr->sig, f1);
+    }
+    return esta;
+}
+
+long int LReclamos_getCedPNum(LReclamos lr, int num)
+{
+    long int cedaux= 0;
+    if(lr!=NULL)
+    {
+        if(Reclamo_getNumero(lr->r)== num)
+            cedaux= Reclamo_getCedula(lr->r);
+        else
+            cedaux= LReclamos_getCedPNum(lr->sig, num);
+    }
+    return cedaux;
+}
