@@ -22,6 +22,8 @@ bool Fecha_validacion(Fecha f); //Me dice si la fecha es correcta o no.
 
 bool Fecha_menorIgual(Fecha f1, Fecha f2); //Devuelve true si la f1 es MENOR O IGUAL a f2, de lo contrario false.
 
+bool Fecha_igual(Fecha f1, Fecha f2);
+
 //bool Fecha_menor(Fecha f1, Fecha f2); //Devuelve true si la f1 es MENOR a f2, de lo contrario false.
 //@note, tuve que hacer 2 funciones la de menor igual y la de menor, porque en el intervalo de las fechas, me lo pide incluyendo las fechas ingresadas.
 

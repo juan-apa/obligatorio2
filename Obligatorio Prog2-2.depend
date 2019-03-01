@@ -158,52 +158,105 @@
 1448576100 source:c:\users\aefr0_000\desktop\obligatorio prog2-2 con fechas\obligatorio prog2-2\string.cpp
 	"String.h"
 
-1448742471 source:c:\users\aefr0_000\documents\github\obligatorio2\cliente.cpp
+1448738987 source:c:\users\juan\documents\github\obligatorio2\arbolclientes.cpp
+	"ArbolClientes.h"
+
+1448737296 c:\users\juan\documents\github\obligatorio2\arbolclientes.h
 	"Cliente.h"
 
-1448742482 c:\users\aefr0_000\documents\github\obligatorio2\cliente.h
+1448737296 c:\users\juan\documents\github\obligatorio2\cliente.h
 	<stdio.h>
 	"String.h"
 
-1448736969 c:\users\aefr0_000\documents\github\obligatorio2\string.h
+1448737296 c:\users\juan\documents\github\obligatorio2\string.h
 	<stdio.h>
 
-1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\fecha.cpp
+1448737296 source:c:\users\juan\documents\github\obligatorio2\cliente.cpp
+	"Cliente.h"
+
+1448737296 source:c:\users\juan\documents\github\obligatorio2\fecha.cpp
 	"fecha.h"
 
-1448736969 c:\users\aefr0_000\documents\github\obligatorio2\fecha.h
+1448737296 c:\users\juan\documents\github\obligatorio2\fecha.h
 	<stdio.h>
 
-1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\listareclamos.cpp
+1448737296 source:c:\users\juan\documents\github\obligatorio2\listareclamos.cpp
 	"ListaReclamos.h"
 
-1448736969 c:\users\aefr0_000\documents\github\obligatorio2\listareclamos.h
+1448737296 c:\users\juan\documents\github\obligatorio2\listareclamos.h
 	"Reclamo.h"
 
-1448736969 c:\users\aefr0_000\documents\github\obligatorio2\reclamo.h
+1448737296 c:\users\juan\documents\github\obligatorio2\reclamo.h
 	<stdio.h>
 	"String.h"
 	"Fecha.h"
 
-1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\menu.cpp
-	"Menu.h"
-
-1448736969 c:\users\aefr0_000\documents\github\obligatorio2\menu.h
-	<stdio.h>
-
-1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\reclamo.cpp
+1448737296 source:c:\users\juan\documents\github\obligatorio2\reclamo.cpp
 	"Reclamo.h"
 
-1448736969 source:c:\users\aefr0_000\documents\github\obligatorio2\string.cpp
+1448737296 source:c:\users\juan\documents\github\obligatorio2\string.cpp
 	"String.h"
 
-1448743061 source:c:\users\aefr0_000\documents\github\obligatorio2\arbolclientes.cpp
+1448738571 source:c:\users\juan\documents\github\obligatorio2\menu.cpp
+	"Menu.h"
+
+1448737296 c:\users\juan\documents\github\obligatorio2\menu.h
+	<stdio.h>
+
+1448738812 source:c:\users\juan\documents\github\obligatorio2\main.cpp
+	<stdio.h>
+	"Reclamo.h"
+	"Cliente.h"
+	"ListaReclamos.h"
+	"ArbolClientes.h"
+	"Menu.h"
+
+1448773481 source:c:\users\apari\documents\github\obligatorio2\arbolclientes.cpp
 	"ArbolClientes.h"
 
-1448743090 c:\users\aefr0_000\documents\github\obligatorio2\arbolclientes.h
+1448818186 c:\users\apari\documents\github\obligatorio2\arbolclientes.h
 	"Cliente.h"
 
-1448743152 source:c:\users\aefr0_000\documents\github\obligatorio2\main.cpp
+1448773481 c:\users\apari\documents\github\obligatorio2\cliente.h
+	<stdio.h>
+	"String.h"
+
+1448762409 c:\users\apari\documents\github\obligatorio2\string.h
+	<stdio.h>
+
+1448773481 source:c:\users\apari\documents\github\obligatorio2\cliente.cpp
+	"Cliente.h"
+
+1448773481 source:c:\users\apari\documents\github\obligatorio2\fecha.cpp
+	"fecha.h"
+
+1448773481 c:\users\apari\documents\github\obligatorio2\fecha.h
+	<stdio.h>
+
+1448818097 source:c:\users\apari\documents\github\obligatorio2\listareclamos.cpp
+	"ListaReclamos.h"
+
+1448818092 c:\users\apari\documents\github\obligatorio2\listareclamos.h
+	"Reclamo.h"
+
+1448762409 c:\users\apari\documents\github\obligatorio2\reclamo.h
+	<stdio.h>
+	"String.h"
+	"Fecha.h"
+
+1448773481 source:c:\users\apari\documents\github\obligatorio2\menu.cpp
+	"Menu.h"
+
+1448762409 c:\users\apari\documents\github\obligatorio2\menu.h
+	<stdio.h>
+
+1448762409 source:c:\users\apari\documents\github\obligatorio2\reclamo.cpp
+	"Reclamo.h"
+
+1448762409 source:c:\users\apari\documents\github\obligatorio2\string.cpp
+	"String.h"
+
+1448818092 source:c:\users\apari\documents\github\obligatorio2\main.cpp
 	<stdio.h>
 	"Reclamo.h"
 	"Cliente.h"

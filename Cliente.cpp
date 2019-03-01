@@ -65,7 +65,7 @@ void Cliente_setCedula(Cliente &c, long int n)
     c.cedula= n;
 }
 
-void Cliente_setCantReclamos (Cliente &c){
+void Cliente_setCantReclamos(Cliente &c){
     c.cantReclamos++;
 }
 

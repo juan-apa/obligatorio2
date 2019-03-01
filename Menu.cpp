@@ -58,5 +58,19 @@ void Menu_consultas(int &op)
 
 void Menu_listados(int &op) //@todo, falta hacer el 3 menu.
 {
-
+    printf("-----------------------------------------------------\n");
+    printf("|  1. Listar clientes por orden de cedula.          |\n");
+    printf("|  2. Reclamos realizados por un cliente.           |\n");
+    printf("|  3. Reclamos realizados en una fecha especifica.  |\n");
+    printf("|  4. Listar cliente que hizo un reclamo.           |\n");
+    printf("|  5. Atras.                                        |\n");
+    printf("-----------------------------------------------------\n");
+    printf("\n>Opcion: ");
+    scanf("%d", &op);
+    while(op<1 || op>5)
+    {
+        printf("\nLa opcion ingresada es incorrecta, vuelva a intentar.");
+        printf("\n>Opcion: ");
+        scanf("%d", &op);
+    }
 }

@@ -28,8 +28,9 @@ void AClientes_mostrarOrden(Clientes &ac)
     if(ac!=NULL)
     {
         AClientes_mostrarOrden(ac->izq);
-        printf("\n\n");
+        printf("\n");
         Cliente_mostrar(ac->c);
+        printf("\n");
         AClientes_mostrarOrden(ac->der);
     }
 }
